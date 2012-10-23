@@ -1,5 +1,3 @@
-<% require css(statusmessage/css/StatusMessage.css) %>
-
 <% if StatusMessage %> 
 <% control StatusMessage %> 
 	<p class="message-box $Status">
