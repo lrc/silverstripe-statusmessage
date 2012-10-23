@@ -2,8 +2,8 @@
 
 <% if StatusMessage %> 
 <% control StatusMessage %> 
-  <p class="message-box $Status"> 
-    $Message 
-  </p> 
+	<p class="message-box $Status">
+		$Message
+	</p>
 <% end_control %> 
 <% end_if %>
