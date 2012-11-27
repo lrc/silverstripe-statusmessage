@@ -1,9 +1,7 @@
-<% require css(statusmessage/css/StatusMessage.css) %>
-
-<% if StatusMessage %> 
-<% control StatusMessage %> 
-	<p class="message-box $Status">
+<% if Messages %> 
+<% loop Messages %> 
+	<p class="message-box $Type">
 		$Message
 	</p>
-<% end_control %> 
+<% end_loop %> 
 <% end_if %>
