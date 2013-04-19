@@ -1,0 +1,19 @@
+{
+	"name": "lrc/status-message",
+	"description": "A status messaging system for SilverStripe",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe"],
+	"authors": [
+		{
+			"name": "Frank Mullenger",
+			"url": "http://deadlytechnology.com"
+		},
+		{
+			"name": "Simon Elvery",
+			"email": "simon@leftrightandcentre.com.au"
+		}
+	],
+	"require": {
+		"silverstripe/framework": "~3.0.0"
+	}
+}
